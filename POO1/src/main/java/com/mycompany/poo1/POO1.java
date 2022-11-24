@@ -12,6 +12,23 @@ package com.mycompany.poo1;
 public class POO1 {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+       
+        Carro carro = new Carro();
+                
+        carro.color="Rojo";
+        carro.marca="Nissan";
+        carro.year= 2010;
+        
+        System.out.println("El detalle del carro es "+ carro.color + carro.marca + carro.year);
+        carro.correr();
+        
+        Carro carro1 = new Carro();      
+        carro1.color="Verde";
+        carro1.marca="Nissan";
+        carro1.year= 2010;
+        
+        System.out.println("El detalle del carro es "+ carro1.color + carro.marca + carro.year);
+        carro.correr();
+        
     }
 }

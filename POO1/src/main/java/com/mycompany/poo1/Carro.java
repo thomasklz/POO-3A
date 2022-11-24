@@ -9,5 +9,19 @@ package com.mycompany.poo1;
  * @author Tomas
  */
 public class Carro {
+   //atributos
+    int year;
+    String marca, color;
     
+    //métodos
+    public void correr(){
+        System.out.println("Estoy corriendo");
+    }
+    
+    public void frenar(){
+       //sentencia
+        System.out.println("Estoy frenando....");
+        
+        
+    }
 }
