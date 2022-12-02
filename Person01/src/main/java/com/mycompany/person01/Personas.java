@@ -70,6 +70,9 @@ public class Personas {
     
     }
     
+    public void yearNacieminto(){
+    
+    }
     
     
 }

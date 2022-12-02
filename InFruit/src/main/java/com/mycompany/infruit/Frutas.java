@@ -58,4 +58,8 @@ public class Frutas {
                     );
         }
     }
+    
+    public void vender(int c){
+            
+    }
 }
